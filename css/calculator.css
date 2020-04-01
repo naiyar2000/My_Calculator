@@ -1,0 +1,132 @@
+body{
+    background: #030303e0;
+}
+
+p{
+    display: inline;
+    word-spacing: 2em;
+    cursor: default;
+}
+
+#history{
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: large;
+    border-bottom: aqua solid 2px;
+}
+
+button{
+    outline-color: rgba(0, 0, 0, 0);
+}
+
+.input1{
+    width: 100%;
+    background: none;
+    color: #ffffff;
+    border: none;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.input2{
+    background: none;
+    width: 100%;
+    border: none;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 1.2em;
+    font-size: 10vh;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(1, 7fr 3fr);
+    height: 96vh;
+    grid-gap: 0.2em;
+}
+
+
+.top-display{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-bottom: 0em;
+    color: #ffffff;
+    background: rgba(19, 18, 18, 0.562);
+}
+
+.history{
+     grid-column: 2/3;
+     grid-row: 1/4;
+     background: rgba(0, 0, 0, 0.2);
+     padding: 1em;
+}
+
+.display{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.specialbtns{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0.1em;
+    height: 5vh;
+    margin-bottom: 5px;
+}
+
+.generalbtns{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.2em;
+    height: 60vh;
+}
+
+.specialbtns>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    font-size: 10px;
+} 
+
+.generalbtns>button{
+    display: flex;
+    border-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+} 
+
+.lighter{
+    background: rgba(3, 3, 3, 0.555);
+}
+
+.lightblue{
+    background-color: rgba(16, 191, 245, 0.5);
+}
+
+.dark{
+    background: #000000;
+}
+
+.spec{
+    background: rgba(0, 0, 0, 0.205);
+}
+
+
+
+
