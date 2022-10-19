@@ -10,3 +10,8 @@ Demo: https://naiyar2000.github.io/My_Calculator/
 Edited by Adi
 
 Edited by Satya Ranjan Nayak
+
+
+
+
+Hello Naiyar
