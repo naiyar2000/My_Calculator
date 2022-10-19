@@ -4,6 +4,7 @@ Calculator with design similar to windows calculator. It is created using HTML, 
 
 It is a response app made using css grid and flex box and is simple to use.
 Feel free to add functionalities, suitable changes send pull requests.
+added some functionalities.
 
 Built with REACT
 Demo: https://naiyar2000.github.io/My_Calculator/
